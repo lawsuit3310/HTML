@@ -11,14 +11,14 @@ a{text-decoration: none; color: inherit;}
 .nav>li{line-height: 30px; float:left; width: 200px; margin-top: 50px; text-align: center; transition: all 0.4s;}
 .nav>li:hover{background-color: brown; color: white;}
 .nav>li>a {text-decoration: none; color:inherit;}
-.submenu {display: none; position: absolute; width: 200px;}
+.submenu {display: none; position: absolute; width: 200px; z-index: 1;}
 .submenu>li {background-color: #eee; color: black; line-height: 30px;}
 .submenu>li:hover {background-color: black; color: white;}
 .submenu>li>a {color: inherit; text-decoration: none;}
 
 #imgslide {width: 1200px; height: 300px; overflow: hidden;}
-.imgs {height: 100%; width: 100%; position: relative; }
-.imgs>a>img{width: 100%; position: absolute; transition: all 3s;}
+.imgs { width: 1200px; position: relative; }
+.imgs>a>img{width: 100%; height: 300px; position: absolute; transition: all 3s;}
 .welcome1 {display: none; position: fixed; margin: -50px 0 0 -150px !important; top: 30%; left: 50%; background-color: rgba(255, 255, 255, 0.8); width: 300px;text-align: center;line-height: 50px; border-radius: 10px;}
 .welcome1.active {display: block;}
 .welcome2 {display: none; position: fixed; margin: -50px 0 0 -150px !important; top: 30%; left: 50%; background-color: rgba(255, 255, 255, 0.8); width: 300px;text-align: center;line-height: 50px; border-radius: 10px;}
