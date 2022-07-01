@@ -1,0 +1,47 @@
+* {margin: 0 auto; padding: 0; list-style: none; font-family: "맑은 고딕";}
+
+.clear {clear:both; position: inherit;}
+
+#header {width: 1000px; height: 150px;}
+.logo {float:left}
+.logo>img {width: 200px; height: 100px; margin-top: 20px; }
+nav {float:right}
+.nav>li{float:left; margin-top: 50px; text-align: center; width: 150px; padding: 5px 0}
+.nav>li:hover{background-color: #999; color: white;}
+.nav>li>a{ text-decoration: none; color:inherit}
+.submenu {z-index: 1; display: none; padding: 0px; margin-top: 5px; background-color: rgba(255, 255, 255, 0.8); color: black; position: absolute}
+.submenu>li:hover{background-color: #36f; color: white;}
+.submenu>li{padding: 5px 0; width: 150px;}
+.submenu>li>a{text-decoration: none; color:inherit}
+
+#imgaeslide{margin: 0 auto; width: 1000px; height: 400px; position: relative; overflow: hidden;}
+#imgs{width: 5000px; position: absolute;}
+#imgs img{float: left; width: 1000px; height: 400px; position: absolute}
+.welcome{position: absolute; height: 100px; width: 300px; border-radius: 10px; margin:  -50px 0 0  -150px !important; text-align: center; z-index: 1; top : 50%; left: 50%; background-color: rgba(255, 255, 255, 0.2);line-height: 100px;}
+.welcome h2 {color:white}
+
+#content{width: 1000px; height: 500px; margin-top: 10px;}
+.notice{width: 500px; float:left}
+.notice h2{text-align: center;}
+.table {line-height: 35px; font-size: 0.9em; width: 480px; border-collapse: collapse;}
+.table tr:nth-child(2n){background-color: #999; color:white;}
+.partner{text-align: center; width: 500px; float:right; margin-top: 7px;}
+.partner img{height: 80px; width: 300px; }
+.partner_info {z-index: 1;}
+.modal {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99; background-color: rgba(255, 255, 255, 0.5); text-align: center; }
+.modal.active{display: block;}
+.modal .content {margin: 20px auto; padding: 20px; width: 600px; background-color: white;}
+.modal .content img {margin: 0 auto;padding: 20px 30px; width: 540px;}
+.modal .content button{color: white; border-radius: 5px; padding: 5px 10px; border: none; cursor: pointer;background: #999;}
+.icon {float: left; width:1000px; margin-top: 10px; position: relative;}
+.icons{text-align: center;}
+.btn {width: 180px; margin: 30px; display: inline-block;}
+.btn img {width: 180px;}
+.btn button{font-size: 1.2em; margin-top: 20px; padding: 5px 0 ; width: 180px; border: none; background-color: #999; border-radius: 5px; color: white;}
+.btn button:hover{background-color: #36f;}
+
+#footer {width: 1000px; height: 100px; background-color: #999;}
+#footer ul {width:50%; float:left}
+#footer ul li{ text-align: center; float: left; margin-left: 50px; margin-top: 20px;}
+#footer ul li a {text-decoration: none; color:  white;}
+#footer p {float:right; margin-top: 10px; color: white; width: 50%; font-size: 12px;}

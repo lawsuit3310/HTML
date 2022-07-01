@@ -1,0 +1,51 @@
+* {margin: 0 auto; padding: 0; font-family: "맑은 고딕"; list-style: none;}
+
+a{text-decoration: none; color: inherit;}
+
+.clear{clear: both; position: inherit;}
+
+#header{width: 1200px; height: 100px;}
+.logo {float:left}
+.logo img {width: 200px; height: 100px;}
+.nav{float:right}
+.nav>li{line-height: 30px; float:left; width: 200px; margin-top: 50px; text-align: center; transition: all 0.4s;}
+.nav>li:hover{background-color: brown; color: white;}
+.nav>li>a {text-decoration: none; color:inherit;}
+.submenu {display: none; position: absolute; width: 200px; z-index: 1;}
+.submenu>li {background-color: #eee; color: black; line-height: 30px;}
+.submenu>li:hover {background-color: black; color: white;}
+.submenu>li>a {color: inherit; text-decoration: none;}
+
+#imgslide {width: 1200px; height: 300px; overflow: hidden;}
+.imgs { width: 1200px; position: relative; }
+.imgs>a>img{width: 100%; height: 300px; position: absolute; transition: all 3s;}
+.welcome1 {display: none; position: fixed; margin: -50px 0 0 -150px !important; top: 30%; left: 50%; background-color: rgba(255, 255, 255, 0.8); width: 300px;text-align: center;line-height: 50px; border-radius: 10px;}
+.welcome1.active {display: block;}
+.welcome2 {display: none; position: fixed; margin: -50px 0 0 -150px !important; top: 30%; left: 50%; background-color: rgba(255, 255, 255, 0.8); width: 300px;text-align: center;line-height: 50px; border-radius: 10px;}
+.welcome2.active{display: block;}
+.welcome3 {display: none; position: fixed; margin: -50px 0 0 -150px !important; top: 30%; left: 50%; background-color: rgba(255, 255, 255, 0.8); width: 300px;text-align: center;line-height: 50px; border-radius: 10px;}
+.welcome3.active{display: block;}
+
+#content {width: 1200px; height: 200px;}
+.notice {float:left; text-align: center; width: 400px; height: 200px;}
+.notice h2 {margin: 5px auto;}
+.table {border-top: 1px solid black; border-collapse: collapse; padding: 5px;}
+.table tr td{text-align: start; font-size: 0.8em; line-height: 30px;}
+.table tr:nth-child(1){cursor: pointer;}
+.table tr:nth-child(2n){background-color: #ccc;}
+.galary {width: 400px; height: 200px; text-align: center;}
+.galary h2{margin: 10px auto;}
+.galary img {width: 100px; background-color: white; margin-left: 10px;}
+.banner {float: right; text-align: center; width: 380px;}
+.banner img {width: 100%;}
+.modal {display: none; width: 100%; height: 100%; position: fixed; top: 0; left : 0;background-color: rgba(0, 0, 0, 0.7);}
+.modal.active {display: block;}
+.content { padding-top: 10px; padding-bottom: 10px; background-color: white; width: 800px; text-align: center; margin-top: 20%;}
+.content button{width: 200px; line-height: 40px; font-size: 20px; border: none;background-color: brown; border-radius: 10px; color: white;}
+
+#footer {width: 1200px; height: 100px; background-color: brown; color: white; line-height: 50px;}
+.menu{text-align: center; width: 900px;float: left;}
+.menu>p{width: 1050px; float: left;}
+.menu>ul>li{float: left; width: 300px;}
+.family {width: 200px; float: right; margin-right: 10px;}
+.family img{width: 100%; height: 100px; }
