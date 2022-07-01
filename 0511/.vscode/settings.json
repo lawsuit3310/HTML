@@ -1,0 +1,9 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "ncurses.h": "c",
+        "stdint.h": "c",
+        "ncurses_dll.h": "c",
+        "master.h": "c"
+    }
+}

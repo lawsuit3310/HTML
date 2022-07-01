@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset = "UTF-8">
+        <title>산업대학교</title>
+        <link rel = "stylesheet" href = "css/style.css">
+    </head>
+    <body>
+        <div id = "wrapper">
+            <header id = "header" class="clearfix"> 
+                <!--logo-->
+                <h1 class = "logo">로고</h1>
+                <nav class = "nav">
+                    <ul class = "clearfix" type = "none">
+                        <li><a herf = "#">MENU-1</a>
+                            <ul class = "submenu">
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li><a herf = "#">MENU-2</a>
+                            <ul class = "submenu">
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li><a herf = "#">MENU-3</a>
+                            <ul class = "submenu">
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li><a herf = "#">MENU-4</a>
+                            <ul class = "submenu">
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                                <li><a href = "#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header> 
+
+            <section id = "banner">
+                <!--banner-->
+                <h2>이미지 슬라이드</h2>
+            </section>
+
+            <section id = "contents" class = "clearfix">
+                <!--contents-->
+                <div class="content1"><h3>공지사항</h3></div>
+                <div class="content2"><h3>갤러리</h3></div>
+                <div class="content3"><h3>팝업</h3></div>
+            </section>
+
+            <footer id = "footer" class = "clearfix">
+                <!--footer-->
+                <div class = "foot1"><h3>로고</h3></div>
+                <div class = "foot2"><h3>Copyright</h3></div>
+                <div class = "foot3"><h3>SNS</h3></div>
+            </footer>
+        </div>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script>
+        <script>
+            $(".nav > ul > li").mouseover(function(){
+                $(this).find(".submenu").stop().slideDown(200);
+            });
+            $(".nav > ul > li").mouseout(function(){
+                $(this).find(".submenu").stop().slideUp(200);
+            });
+        </script>
+    </body>
+</html>

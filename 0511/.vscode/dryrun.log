@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/lawsuit3310/Documents/0511'
+make: 'test' is up to date.
+make: Leaving directory '/home/lawsuit3310/Documents/0511'
+ 

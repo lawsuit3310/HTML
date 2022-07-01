@@ -1,0 +1,19 @@
+* {margin: 0 auto; padding: 0; list-style: none; font-family: "맑은 고딕";}
+
+.clear {clear: both; position: inherit;}
+
+#header {width: 1200px; height: 100px;}
+.logo {float:left;}
+.logo a img {height: 100px;}
+.nav {float:right}
+nav {margin-top: 30px;}
+.nav li {float:left; text-align: center; width: 200px; transition: all 0.4s; padding: 5px 0;}
+.nav li:hover{background-color: brown; color: white;}
+.nav li a {color:inherit; text-decoration: none;}
+.submenu{z-index: 1; display: none; background-color: rgba(255, 255, 255, 0.8); padding-bottom: 5px; color: black;  }
+.submenu li:hover{background-color: white; color: black;}
+
+#imgslide {width: 1200px; height: 300px; }
+.imgs {height: 300px; position: relative; overflow: hidden;}
+.imgs img {position: absolute; width: 100%; transition: all 2s;}
+.welcome{position: fixed; background-color: rgba(255, 255, 255, 0.8); position: inherit; top: 20px; width: 250px; text-align: center; left: 5%;}
